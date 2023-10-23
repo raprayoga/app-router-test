@@ -1,5 +1,6 @@
 import React from "react";
+import LoginTemplates from "@/components/templates/LoginTemplates";
 
-export default function Login() {
-  return <div>Login</div>;
+export default function LoginPage() {
+  return <LoginTemplates />;
 }
